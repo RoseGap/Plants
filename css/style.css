@@ -1,0 +1,608 @@
+html{
+    box-sizing: border-box;
+    }
+    *, *::before, *::after{
+    }
+    body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    }
+    .container{
+    max-width: 1440px; /* он указывает картинку которая по середине но у меня ее нет
+    */ margin: 0 auto ; /*выравнивание по центру*/
+    :root{
+    —grean-color:#EDF2EC;
+    —dark-color: #000000;
+    —greeen-color:#499A18;
+    —accent-color: #E06733;
+    —braun-color:#636060 ;
+    —grey-color: #717171;
+    —background: #EDF2EC;
+    }
+    }
+    .text-h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    }
+    .text-h3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    }
+    .text-h5{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    }
+    .text-p-1{
+    font-family: 'Inika', serif;
+    font-weight: 400;
+    font-size: 40px;
+    }
+    .text-p-2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    }
+    .text-p-3{
+    font-family: 'Inika', serif;
+    font-weight: 400;
+    font-size: 20px;
+    }
+    .text-p-4{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    }
+    .text-p-5{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    }
+    
+    .text-p-6{
+    font-family: 'Inika', serif;
+    font-weight: 700;
+    font-size: 20px;
+    }
+    
+    .text-p-7{
+    font-family: 'Inika', serif;
+    font-weight: 700;
+    font-size: 40px;
+    }
+    
+    /*.text-h5{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    для кнопи и команд в правлм верхнем углу шрифты разные и жирность,
+    возможно нужно поставить верхние кнопки h6
+    }*/
+    .header {
+      height: 134px;
+      background-color:#EDF2EC;
+      color: white; 
+      padding: 1px;
+
+    }
+    
+    .container {
+      margin-left: 111px;
+      margin-top: 42px;
+      margin-bottom: 42px;
+      margin-right: 109px;
+      height: 50px;
+      width: 1220px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .logo img {
+      margin-right: 20px;
+    }
+    
+    .nav {
+      gap: 45px;
+    
+      width: 452px;
+      height: 50px;
+      display: flex;
+    }
+    .Home_page{
+      width: 44px;
+      height: 50px;
+      top: 42px;
+      left: 879px;
+      text-decoration: none;
+      color: #E06733;
+      font-family: Inika;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 50px;
+      letter-spacing: 0em;
+      text-align: left;
+    
+    }
+    .About_page{
+      width: 67px;
+      height: 50px;
+      top: 42px;
+      left: 969px;
+      text-decoration: none;
+      color: black;
+      white-space: nowrap;
+      font-family: Inika;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    }
+    .Service_page{
+      width: 55px;
+      height: 50px;
+      top: 42px;
+      left: 1082px;
+      text-decoration: none;
+      color: black;
+      font-family: Inika;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    }
+    .Price_page{
+      width: 38px;
+      height: 50px;
+      top: 42px;
+      left: 1183px;
+      text-decoration: none;
+      color: black;
+      font-family: Inika;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 50px;
+      letter-spacing: 0em;
+      text-align: left;
+      
+    }
+    .Contacts_page{
+      width: 64px;
+      height: 50px;
+      top: 42px;
+      left: 1267px;
+      text-decoration: none;
+      color: black;
+      font-family: Inika;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 50px;
+      letter-spacing: 0em;
+      text-align: left;
+    
+    }
+    
+    
+    .burger {
+      margin-left: 20px; /* Расстояние между ссылками, по мере необходимости */
+      text-decoration: none; /* Убирает подчеркивание у ссылок */
+      color: inherit; /* Наследует цвет текста от родительского элемента */
+    }
+    
+    .main{
+      padding: 1px;
+      top: 134px;
+      background-color:#EDF2EC;
+      height: 532px;
+      justify-content: space-between;
+
+    }
+    .picture img{
+      width: 448.8px;
+      height: 407.36px;
+      top: 62px;
+      left: 109px;
+      margin-left: 109px;
+    }
+    
+    .container_main{
+      display: flex;
+      width: 1222px;
+      height: 407.36px;
+      margin-top: 62px;
+      left: 109px;
+      
+    }
+    
+    .main h1{
+      width: 549px;
+      height: 101px;
+      top: 98px;
+      left: 782px;
+      font-family: Inter;
+      font-size: 45px;
+      font-weight: 700;
+      line-height: 50px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #717171;
+    }
+    .main h1 span{
+      color: #499A18;
+    }
+    
+    .main h3{
+      width: 525.44px;
+      height: 105px;
+      top: 241px;
+      left: 782px;
+      font-family: Inter;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 35px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #636060;
+    }
+    
+    .text button {
+      width: 158px;
+      height: 44px;
+      top: 394px;
+      left: 782px;
+      border-radius: 10px;
+      border-color: #E06733;
+    }
+    .text{
+      width: 549px;
+      height: 340px;
+      top: 98px;
+      left: 782px;
+    
+      margin-left: 224px;
+    }
+    
+    .text h3{
+      margin-top: 42px;
+      margin-bottom: 48px;
+    }
+    /* ToDo адаптивность посмотреть */
+   /** @media screen and (max-width:1440px){
+      .about{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2, 1fr);
+      }
+    }**/ 
+    .about{
+      padding: 1px;
+      /* top: 666px; */
+      background-color:#fff;
+      height: 666px;
+    }
+    .about_picture img{
+      float: right;
+      width: 464px;
+      height: 479px;
+      top: 93px;
+      left: 867px;
+      right:109px;
+      margin-right: 109px;
+    }
+    .container_about{
+      display: inline;
+      width: 1222px;
+      height: 479px;
+      margin-top: 93px;
+      left: 109px;
+    }
+    .about h1{
+      width: 463px;
+      height: 102px;
+      top: 161px;
+      left: 109px;
+      font-family: Inika;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 50px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #499A18;
+    }
+    .about h1 span{
+      color: #E06733;
+    }
+    .about h3{
+      width: 605px;
+      height: 208px;
+      top: 303px;
+      left: 109px;
+      font-family: Inter;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #636060;
+    }
+    .Service{
+      width: 1440px;
+      height: 1300px;
+      background-color: #EDF2EC;
+    }
+    .Service_header{
+      display:flex;
+      align-items: center;
+      height: 94px;
+      width: 1007px;
+      margin-left: 109px;
+      padding-top: 40px;
+      justify-content: space-between;
+    }
+    .Service_header_text{
+      font-family: Inika;
+      font-size: 40px;
+      font-weight: 400px;
+      color: #499A18;
+      width: 306px;
+    }
+    .Service_header_buttons{
+      height: 50px;
+      width: 559px;
+      display: flex;
+      justify-content: space-between;
+      
+    }
+    .Service_header_buttons button{
+      height: 50px;
+      width: 161px;
+      border-color: #E06733;
+      font-family: Inika;
+      font-size: 20px;
+      font-weight: 400px;
+      color: #E06733;
+      background-color: #EDF2EC;
+      border-radius: 5px;
+    }
+    .Service_content{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); 
+      grid-gap: 116px;  
+      margin-left: 109px;
+      margin-top: 90px;
+    }
+    .Service_content_item{
+      width: 330px;
+      height: 450px;
+      border: 1px solid #E3E1D5;
+      border-radius: 20px;
+    }
+    .Service_content_item_describe{
+      width: 330px;
+      height: 100px;
+    }
+    .Service_content_item_title{  
+      margin-top: 10px;
+      margin-bottom: 0px;
+      font-family: Inter;
+      font-size: 20px;
+      color: #E06733;
+      font-weight: 700;
+      display: flex;
+      justify-content: center;
+    }
+    .Service_content_item_text{
+      margin-top: 10px;
+      margin-bottom: 0px;
+      font-family: Inter;
+      font-size: 16px;
+      color: #717171;
+      font-weight: 400;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .Prices{
+      height: 560px;
+      width: 1440px;
+    }
+    .Prices_wrapper{
+      height: 405px;
+      width: 1222px;
+      margin: 40px 109px 115px 109px;
+      display: flex;
+      justify-content: space-between
+    }
+    .Prices_tarifs{
+      height: 390px;
+      width: 332px;
+    }
+    .Prices_tarifs h2{
+      font-family: Inter;
+      font-size: 40px;
+      color: #000;
+      font-weight: 700;
+    }
+    .Price_items{
+      margin-top: 60px;
+      padding: 41px 34px 0px 34px;
+      border: 1px solid #E3E1D5;
+      border-radius: 20px;
+    }
+    .Price_item_collapsed{
+      background-color:#EDF2EC;
+      border-radius: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 34px;
+    }
+    .Price_item_collapsed h3{
+      margin-left: 40px;
+    }
+    .Price_item_collapsed button{
+      margin-right: 40px;
+      height: 16px;
+      width: 16px;
+      border-radius: 100px;
+      background-color: #D9D9D9;
+      border-color: #D9D9D9;
+      border-style: solid;
+      display: flex;
+      /* центруем кнопку */
+      align-items: center;
+      justify-content: center;
+    }
+    /* deployed */
+    .Price_item_deployed{
+      display: none;
+      border-radius: 20px;
+      background-color: #D6E7D2;
+      margin-bottom: 34px;
+    }
+    .Price_item_deployed_header{
+      display: flex; 
+      justify-content: space-between;
+      align-items: center;
+    } 
+    .Price_item_deployed_header h3{
+      margin-left: 40px;
+
+    }
+    .Price_item_deployed_header button{
+      margin-right: 40px;
+      height: 16px;
+      width: 16px;
+      border-radius: 100px;
+      background-color: #AEA1A1;
+      border-color: #AEA1A1;
+      border-style: solid;
+      display: flex;
+      /* центруем кнопку */
+      align-items: center;
+      justify-content: center;
+
+    }
+    .Price_item_deployed hr{
+      margin-left: 40px;
+      color: #AEA1A1;
+      size: 0.5px;
+      margin: 0px 40px;
+    }
+    .Price_item_collapsed_grey{
+      font-family: Inter;
+      font-size: 10px;
+      color: #717171;
+      font-weight: 400;
+      width: 169px;
+      height: 30px;
+      margin-left: 40px;
+    }
+    .Price_item_collapsed_orange_default{
+      font-family: Inter;
+      font-size: 12px;
+      color: #000;
+      font-weight: 400;
+      margin-left: 40px;
+    }
+    .Price_item_collapsed_orange_default span{
+      font-family: Inter;
+      font-size: 16px;
+      color: #E06733;
+      font-weight: 700;
+
+    }
+    .Price_item_collapsed_bt_order{
+      width: 86px;
+      height: 25px;
+      background-color: #fff;
+      color: #717171;
+      border-color: #fff;
+      border-radius: 10px;
+      margin-left: 40px;
+      margin-bottom: 12px;
+    }
+    .text_call_us{
+      width: 450px;
+      height: 190px;
+      display: block;
+    }
+    .text_call_us_text{
+      font-family: Inter;
+      font-size: 40px;
+      color: #000;
+      font-weight: 700;
+      margin-top: 0px;
+    }
+    .text_call_us_text span{
+      color: #499A18;
+    }
+    .text_call_us button{
+      width: 162px;
+      height: 50px;
+      background-color: #fff;
+      color: #E06733;
+      border-color: #E06733;
+      border-radius: 5px;
+      margin-right: 0px;
+      font-weight: 700;
+      font-family: Inika;
+      
+    }
+    .contacts{
+      background-color: #EDF2EC;
+      display: flex;
+      justify-content: space-between;
+      width: 1440px;
+      height: 550px;
+    }
+    .contacts img{
+      width: 400px;
+      height: 497px;
+      margin-left: 109px;
+      margin-top: 53px;
+    }
+    .contacts h2{
+      font-family: Inika;
+      font-size: 40px;
+      color: #499A18;
+      font-weight: 700;
+    }
+    .contacts select {
+      width: 450px;
+      height: 50px;
+      background-color: #D6E7D2;
+      border-color: #D6E7D2;
+      margin-top: 148px;
+    }
+    
+    footer{
+      display: flex;
+      justify-content: space-between;
+    }
+    .footer_l{
+      display: flex;
+      justify-content: space-between;
+      width: 182px;
+      height: 50px;
+      margin-left: 109px;
+    }
+    .footer_r {
+      width: 188px;
+      height: 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-right: 109px;
+    }
+    .footer_r img {
+      width: 32px;
+      height: 32px;
+    }
+        
